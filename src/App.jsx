@@ -1,13 +1,11 @@
-import { useState } from 'react'
+import Herosection from "./components/Herosection";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1 className='text-[#f4f] text-[70px]'>Hello World</h1>
+      <Herosection />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
