@@ -1,0 +1,14 @@
+
+
+.fleet{
+    color: #fff;
+}
+.fleet::after {
+  content: "";
+  display: inline-block;
+  width: 2px; 
+  height: 30px;
+  background-color: #23262f; 
+  transform: translateY(20%);
+  margin-left: 20px;
+}
